@@ -2,7 +2,7 @@
 
 ## About
 
-GuiaPress is a simple blog with the intention of simply imitating the famous WordPress
+GuiaPress is a simple blog with the intention of simply imitating the famous WordPress.
 My idea when creating it was to be able to study back-end and front-end communication through NodeJs
 
 ## Techs
