@@ -1,0 +1,43 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/home-nav.ejs') %> 
+<body>
+    
+    <div class="container">
+        <hr>
+        <div class="jumbotron">
+            <h1 class="display-4">Hello Friend!</h1>
+            <p class="lead">This is my First Blog! I have made with NodeJs and Bootstrap 5!</p>
+            <hr class="my-4">
+        </div>
+        <hr>
+        <% articles.forEach(article => {  %>
+            <div class="card">
+                <div class="card-header"><h2> <%= article.title %> </h2></div>
+                <div class="card-body">
+                    <a class="btn btn-success" href="/<%= article.slug %>">Read Article</a>
+                </div>
+            </div><br>
+        <% }) %>
+
+        <div class="row">
+            <div class="col col-12">
+                <a href="/articles/page/1" style="float: right;" class="btn btn-primary">Next >>> </a>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+</body>
+
+
+<%- include ('partials/footer.ejs') %> 
+
+
+<style type="text/css">
+    .jumbotron {
+      padding: 4rem 2rem;
+      margin-bottom: 2rem;
+      background-color: var(--bs-light);
+      border-radius: .3rem;  
+    }
+</style>
