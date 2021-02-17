@@ -24,14 +24,4 @@ My idea when creating it was to be able to study back-end and front-end communic
 
 <img alt="MySQL" src="https://img.shields.io/badge/mysql-%2300f.svg?&style=for-the-badge&logo=mysql&logoColor=white"/>
 
-## How to Use
 
-```
-npm install
-npm install nodemon -g
-
-```
-```
-nodemon index.js
-
-```
