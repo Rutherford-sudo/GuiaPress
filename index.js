@@ -46,10 +46,6 @@ app.use("/", articlesController);
 // usersController ///////////////////////////
 app.use("/", usersController);
 
-
-// Sessions ///////////////////////////
-
-
 // Index ///////////////////////////
 app.get("/",(req,res) => {
 
