@@ -2,7 +2,7 @@
 
 ## About
 
-GuiaPress is a simple blog with the intention of simply imitating the famous WordPress.
+GuiaPress is a simple blog with the intent to imitate the famous WordPress.
 
 ## Techs
 
